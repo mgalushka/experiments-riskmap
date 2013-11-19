@@ -71,7 +71,7 @@
           </ul>
           <form class="navbar-form navbar-right">
 			<a href="#">
-				<img src="img/facebook-login.png" />
+				<img src="img/google-login.png" />
 			</a>
           </form>
         </div><!--/.navbar-collapse -->
