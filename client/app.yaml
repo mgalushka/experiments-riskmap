@@ -1,0 +1,14 @@
+application: gcdc2013-riskmap
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /(.*\.(htm$|html$|css$|js$|png$))
+  static_files: \1
+  upload: (.*\.(htm$|html$|css$|js$|png$))
+  application_readable: true
+
+- url: .*
+  script: index.php
